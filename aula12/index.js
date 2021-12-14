@@ -2,10 +2,10 @@ let varA = 'A'
 let varB = 'B'
 let varC = 'C'
 
-const temp = varA
-varA = varB
-varB = varC
-varC = temp
+const temp = 'A'
+varA = varB  // varA vai ser 'B'
+varB = varC   // VarB vai ser 'C'
+varC = temp  // varC vai ser 'A'
 
 // ou,
 
