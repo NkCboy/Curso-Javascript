@@ -33,7 +33,7 @@ function older50 (obj) {
 }
 
 function lastLetter (obj) {
-    return obj.nome[-1] = 'a';
+    return obj.nome.toLowerCase().endsWith('a');
 }
 
 const maior5 = pessoas.filter(maior5letras);
